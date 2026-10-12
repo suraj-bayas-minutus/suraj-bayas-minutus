@@ -1,0 +1,352 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1580 920" role="img" aria-labelledby="t d">
+<title id="t">Suraj x Minutus - The 3-Month Journey</title>
+<desc id="d">Pixel-art game map of Suraj's journey at Minutus Computing from May 14 to Aug 19 2026: 3DXLens, RCA engine, trailer and waitlist, 3DXInsights, RCA mining, 7B QLoRA fine-tuning on SageMaker, and MinuTasks MCP automation.</desc>
+<style>
+*{margin:0;padding:0}
+rect,circle,polygon{shape-rendering:crispEdges}
+text{font-family:'Courier New',ui-monospace,Menlo,monospace;font-weight:bold;shape-rendering:geometricPrecision}
+@keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
+@keyframes drift{0%{transform:translateX(-520px)}100%{transform:translateX(1750px)}}
+@keyframes drift2{0%{transform:translateX(-700px)}100%{transform:translateX(2100px)}}
+@keyframes fly{0%{transform:translate(-300px,0)}100%{transform:translate(1700px,0)}}
+@keyframes flick{0%,100%{transform:scaleY(1)}50%{transform:scaleY(1.4)}}
+@keyframes shoot{0%{opacity:1;transform:translate(80px,60px) rotate(24deg)}12%{opacity:1;transform:translate(760px,330px) rotate(24deg)}13%,100%{opacity:0;transform:translate(760px,330px) rotate(24deg)}}
+@keyframes xp{0%{transform:scaleX(.05)}55%{transform:scaleX(1)}100%{transform:scaleX(1)}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+@keyframes blinkE{0%,44%,56%,100%{transform:scaleY(1)}50%{transform:scaleY(.12)}}
+@keyframes wavef{0%,100%{transform:skewX(0deg)}50%{transform:skewX(-16deg)}}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:.85}50%{transform:scale(1.15);opacity:1}}
+@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@keyframes cur{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes cube{
+0%{opacity:1;transform:translate(140px,588px)}
+3%{transform:translate(235px,544px)}
+6%{transform:translate(330px,588px)}
+9%{transform:translate(425px,544px)}
+12%{transform:translate(520px,588px)}
+15%{transform:translate(615px,544px)}
+18%{transform:translate(710px,588px)}
+21%{transform:translate(805px,544px)}
+24%{transform:translate(900px,588px)}
+27%{transform:translate(955px,544px)}
+30%{transform:translate(1010px,588px)}
+33%{transform:translate(1069px,522px)}
+36%{transform:translate(1113px,456px)}
+39%{transform:translate(1157px,418px)}
+42%{transform:translate(1223px,374px)}
+45%{transform:translate(1290px,418px)}
+48%{transform:translate(1355px,372px)}
+51%{transform:translate(1420px,418px)}
+54%{transform:translate(1470px,418px)}
+60%{transform:translate(1482px,409px)}
+66%{transform:translate(1470px,418px)}
+72%{transform:translate(1482px,409px)}
+78%{transform:translate(1470px,418px)}
+86%{opacity:1;transform:translate(1470px,418px)}
+93%{opacity:0;transform:translate(1470px,418px)}
+94%{opacity:0;transform:translate(140px,588px)}
+100%{opacity:1;transform:translate(140px,588px)}
+}
+@keyframes glowBeam{0%,100%{opacity:.25}50%{opacity:.6}}
+.blinkE{transform-box:fill-box;transform-origin:center;animation:blinkE 3.8s infinite}
+.wave{transform-box:fill-box;transform-origin:left center;animation:wavef 1.2s ease-in-out infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 9s linear infinite}
+.cur{animation:cur 1.1s steps(1) infinite}
+.pulse{transform-box:fill-box;transform-origin:center;animation:pulse 1.6s ease-in-out infinite}
+.flame{transform-box:fill-box;transform-origin:50% 0;animation:flick .18s ease-in-out infinite}
+</style>
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#0d1236"/><stop offset=".55" stop-color="#1b1745"/><stop offset="1" stop-color="#33206b"/>
+</linearGradient>
+<linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#4ae3ff" stop-opacity=".55"/><stop offset="1" stop-color="#4ae3ff" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="hpxp" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#4ae3ff"/><stop offset="1" stop-color="#ff5da2"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1580" height="920" fill="url(#sky)"/>
+<g fill="#ffffff">
+<rect class="star" x="60" y="60" width="4" height="4" style="animation:tw 3.2s infinite"/>
+<rect class="star" x="180" y="110" width="3" height="3" style="animation:tw 2.6s .4s infinite"/>
+<rect class="star" x="330" y="50" width="4" height="4" style="animation:tw 3.8s .9s infinite"/>
+<rect class="star" x="470" y="130" width="3" height="3" style="animation:tw 2.9s 1.3s infinite"/>
+<rect class="star" x="600" y="70" width="4" height="4" style="animation:tw 3.4s .2s infinite"/>
+<rect class="star" x="760" y="150" width="3" height="3" style="animation:tw 2.7s 1.7s infinite"/>
+<rect class="star" x="920" y="60" width="4" height="4" style="animation:tw 3.6s .6s infinite"/>
+<rect class="star" x="1050" y="140" width="3" height="3" style="animation:tw 2.5s 2.1s infinite"/>
+<rect class="star" x="1200" y="50" width="4" height="4" style="animation:tw 3.1s 1.1s infinite"/>
+<rect class="star" x="1350" y="120" width="3" height="3" style="animation:tw 2.8s .8s infinite"/>
+<rect class="star" x="1480" y="60" width="4" height="4" style="animation:tw 3.5s 1.5s infinite"/>
+<rect class="star" x="110" y="210" width="3" height="3" style="animation:tw 2.4s 2.4s infinite"/>
+<rect class="star" x="280" y="230" width="4" height="4" style="animation:tw 3s 1.8s infinite"/>
+<rect class="star" x="520" y="200" width="3" height="3" style="animation:tw 2.7s .3s infinite"/>
+<rect class="star" x="700" y="250" width="4" height="4" style="animation:tw 3.3s 2.2s infinite"/>
+<rect class="star" x="990" y="220" width="3" height="3" style="animation:tw 2.6s 1.9s infinite"/>
+<rect class="star" x="1560" y="230" width="3" height="3" style="animation:tw 3s 2.7s infinite"/>
+</g>
+<g style="animation:shoot 11s 2s linear infinite">
+<rect x="70" y="52" width="60" height="4" fill="#eaf6ff"/>
+<rect x="126" y="48" width="8" height="12" fill="#fff"/>
+</g>
+<g fill="#ffe08a">
+<circle cx="1472" cy="118" r="42" fill="#4ae3ff" opacity=".08"/>
+<circle cx="1472" cy="118" r="26"/>
+<circle cx="1462" cy="112" r="20" fill="#191645"/>
+</g>
+<g class="cloud" style="animation:drift 80s linear infinite">
+<g fill="#b9c8ff" opacity=".18"><rect x="160" y="150" width="120" height="18"/><rect x="180" y="132" width="80" height="18"/><rect x="210" y="116" width="40" height="16"/></g>
+<g fill="#b9c8ff" opacity=".14"><rect x="560" y="210" width="150" height="20"/><rect x="590" y="190" width="90" height="20"/><rect x="640" y="172" width="40" height="18"/></g>
+</g>
+<g class="cloud2" style="animation:drift2 130s linear infinite">
+<g fill="#b9c8ff" opacity=".12"><rect x="980" y="110" width="170" height="22"/><rect x="1020" y="90" width="90" height="20"/><rect x="1060" y="70" width="50" height="20"/></g>
+<g fill="#b9c8ff" opacity=".1"><rect x="300" y="280" width="130" height="16"/><rect x="330" y="266" width="70" height="14"/></g>
+</g>
+<g style="animation:fly 30s linear infinite">
+<g transform="translate(0,120)">
+<g transform="translate(-12,-30)">
+<rect x="0" y="20" width="24" height="34" fill="#e8eef7"/>
+<rect x="-4" y="30" width="32" height="12" fill="#e8eef7"/>
+<rect x="4" y="0" width="16" height="24" fill="#e8eef7"/>
+<rect x="4" y="26" width="16" height="12" fill="#4ae3ff"/>
+<rect x="-8" y="54" width="10" height="12" fill="#ff5da2"/>
+<rect x="22" y="54" width="10" height="12" fill="#ff5da2"/>
+<g class="flame"><rect x="6" y="66" width="12" height="18" fill="#ffd166"/><rect x="9" y="84" width="6" height="12" fill="#ff9d3c"/></g>
+</g>
+</g>
+</g>
+<polygon points="0,700 120,556 240,700" fill="#171342"/>
+<polygon points="180,700 320,520 480,700" fill="#1c1748"/>
+<polygon points="420,700 560,584 700,700" fill="#171342"/>
+<polygon points="640,700 800,540 980,700" fill="#1c1748"/>
+<polygon points="900,700 1040,590 1180,700" fill="#171342"/>
+<polygon points="1120,700 1290,540 1460,700" fill="#1c1748"/>
+<polygon points="1420,700 1560,580 1580,700" fill="#171342"/>
+
+<rect x="0" y="700" width="1580" height="220" fill="#120e33"/>
+<rect x="0" y="700" width="1580" height="14" fill="#1e1548"/>
+<g fill="#35d07f"><rect x="30" y="716" width="40" height="12"/><rect x="80" y="716" width="24" height="16"/><rect x="112" y="716" width="40" height="20"/><rect x="162" y="716" width="40" height="10"/><rect x="212" y="716" width="40" height="8"/></g>
+<rect x="0" y="716" width="1580" height="204" fill="#0c0a26"/>
+<g fill="#1c1748"><rect x="40" y="740" width="50" height="120"/><rect x="180" y="780" width="60" height="80"/><rect x="360" y="760" width="50" height="100"/><rect x="560" y="800" width="60" height="60"/><rect x="760" y="750" width="50" height="110"/><rect x="980" y="790" width="60" height="70"/><rect x="1200" y="760" width="50" height="100"/><rect x="1440" y="800" width="50" height="60"/></g>
+<g fill="#241b52"><rect x="200" y="860" width="90" height="60"/><rect x="600" y="840" width="80" height="80"/><rect x="1080" y="850" width="100" height="70"/></g>
+<!-- HUD -->
+<g>
+<rect x="24" y="22" width="620" height="86" fill="#0c0a26" opacity=".75"/>
+<rect x="24" y="22" width="620" height="86" fill="none" stroke="#4ae3ff" stroke-width="2"/>
+<text x="44" y="58" font-size="30" fill="#ffffff" letter-spacing="1">SURAJ <tspan fill="#4ae3ff">×</tspan> MINUTUS</text>
+<text x="46" y="84" font-size="15" fill="#ffd166" letter-spacing="1">★ THE 3-MONTH JOURNEY ★</text>
+<text x="46" y="102" font-size="13" fill="#b9c8ff" letter-spacing="1">MAY 14 → AUG 19 · 2026</text>
+</g>
+<g>
+<rect x="1160" y="26" width="396" height="62" fill="#0c0a26" opacity=".75"/>
+<rect x="1160" y="26" width="396" height="62" fill="none" stroke="#ff5da2" stroke-width="2"/>
+<text x="1180" y="50" font-size="14" fill="#ff5da2" letter-spacing="1">♥♥♥ HP 100</text>
+<text x="1180" y="72" font-size="14" fill="#ffd166" letter-spacing="1">COINS 0003</text>
+<text x="1340" y="50" font-size="14" fill="#b9c8ff" letter-spacing="1">XP</text>
+<rect x="1372" y="40" width="160" height="12" fill="#241b52"/>
+<rect x="1372" y="40" width="160" height="12" fill="#4ae3ff" class="xpbar" style="transform-box:fill-box;transform-origin:0 50%;animation:xp 6s ease-in-out infinite"/>
+<text x="1340" y="74" font-size="14" fill="#7c6df0" letter-spacing="1">RANK: LEVEL 3 ENGINEER</text>
+</g>
+
+<!-- STEPPING STONES -->
+<g fill="#241b52"><rect x="200" y="608" width="22" height="10"/><rect x="238" y="608" width="22" height="10"/><rect x="276" y="608" width="22" height="10"/><rect x="392" y="606" width="22" height="10"/><rect x="430" y="606" width="22" height="10"/><rect x="468" y="606" width="22" height="10"/><rect x="584" y="608" width="22" height="10"/><rect x="622" y="608" width="22" height="10"/><rect x="660" y="608" width="22" height="10"/><rect x="774" y="606" width="22" height="10"/><rect x="812" y="606" width="22" height="10"/><rect x="850" y="606" width="22" height="10"/></g>
+<g fill="#4ae3ff" opacity=".6"><rect x="204" y="610" width="14" height="3"/><rect x="242" y="610" width="14" height="3"/><rect x="280" y="610" width="14" height="3"/><rect x="396" y="608" width="14" height="3"/><rect x="434" y="608" width="14" height="3"/><rect x="472" y="608" width="14" height="3"/><rect x="588" y="610" width="14" height="3"/><rect x="626" y="610" width="14" height="3"/><rect x="664" y="610" width="14" height="3"/><rect x="778" y="608" width="14" height="3"/><rect x="816" y="608" width="14" height="3"/><rect x="854" y="608" width="14" height="3"/></g>
+
+<!-- PLATFORM 1: 3DXLENS (MAY) -->
+<g>
+<rect x="80" y="426" width="120" height="160" fill="url(#beam)"/>
+<rect x="80" y="600" width="120" height="26" fill="#2a2350"/>
+<rect x="80" y="600" width="120" height="6" fill="#4ae3ff"/>
+<rect x="80" y="626" width="120" height="4" fill="#0f0b2e"/>
+<text x="140" y="562" font-size="16" fill="#ff5da2" text-anchor="middle" letter-spacing="1">MAY</text>
+<circle cx="140" cy="574" r="20" fill="#241b52"/>
+<circle cx="140" cy="574" r="14" fill="#4ae3ff"/>
+<circle cx="140" cy="574" r="8" fill="#0c0a26"/>
+<rect x="152" y="572" width="26" height="7" fill="#b9c8ff" transform="rotate(28 152 572)"/>
+<g><rect x="60" y="326" width="4" height="4" fill="#ffe45e" class="pulse"/><rect x="196" y="330" width="4" height="4" fill="#ffe45e" class="pulse" style="animation-delay:.4s"/></g>
+<text x="140" y="652" font-size="17" fill="#ffffff" text-anchor="middle" letter-spacing="1">3DXLENS</text>
+<text x="140" y="672" font-size="13" fill="#b9c8ff" text-anchor="middle" letter-spacing="1">RCA ANALYZER ▶ AI SRE</text>
+</g>
+
+<!-- PLATFORM 2: RCA ENGINE (JUN) -->
+<g>
+<rect x="270" y="426" width="120" height="160" fill="url(#beam)"/>
+<rect x="270" y="600" width="120" height="26" fill="#2a2350"/>
+<rect x="270" y="600" width="120" height="6" fill="#ffe45e"/>
+<rect x="270" y="626" width="120" height="4" fill="#0f0b2e"/>
+<text x="330" y="562" font-size="16" fill="#ffe45e" text-anchor="middle" letter-spacing="1">JUN</text>
+<g transform="translate(330,574)" class="spin">
+<g fill="#4ae3ff"><rect x="-18" y="-4" width="10" height="8"/><rect x="8" y="-4" width="10" height="8"/><rect x="-4" y="-18" width="8" height="10"/><rect x="-4" y="8" width="8" height="10"/><rect x="-14" y="-14" width="8" height="8"/><rect x="6" y="-14" width="8" height="8"/><rect x="-14" y="6" width="8" height="8"/><rect x="6" y="6" width="8" height="8"/></g>
+<circle cx="0" cy="0" r="10" fill="#2a2350"/>
+<circle cx="0" cy="0" r="6" fill="#4ae3ff"/>
+</g>
+<text x="330" y="652" font-size="17" fill="#ffffff" text-anchor="middle" letter-spacing="1">RCA ENGINE</text>
+<text x="330" y="672" font-size="13" fill="#b9c8ff" text-anchor="middle" letter-spacing="1">LLM + RAG · QWEN 2.5</text>
+</g>
+
+<!-- PLATFORM 3: TRAILER + WAITLIST (JUN) -->
+<g>
+<rect x="460" y="426" width="120" height="160" fill="url(#beam)"/>
+<rect x="460" y="600" width="120" height="26" fill="#2a2350"/>
+<rect x="460" y="600" width="120" height="6" fill="#ffe45e"/>
+<rect x="460" y="626" width="120" height="4" fill="#0f0b2e"/>
+<text x="520" y="562" font-size="16" fill="#ffe45e" text-anchor="middle" letter-spacing="1">JUN</text>
+<rect x="498" y="552" width="44" height="34" fill="#ff5da2"/>
+<rect x="502" y="556" width="36" height="12" fill="#241b52"/>
+<rect x="504" y="556" width="11" height="12" fill="#ffe45e" transform="skewX(-20 504 556)"/>
+<g fill="#e8eef7"><rect x="504" y="572" width="14" height="4"/><rect x="522" y="572" width="14" height="4"/><rect x="504" y="578" width="14" height="4"/><rect x="522" y="578" width="14" height="4"/></g>
+<text x="520" y="652" font-size="17" fill="#ffffff" text-anchor="middle" letter-spacing="1">TRAILER + WAITLIST</text>
+<text x="520" y="672" font-size="13" fill="#b9c8ff" text-anchor="middle" letter-spacing="1">REMOTION · NEXT.JS</text>
+</g>
+
+<!-- PLATFORM 4: 3DXINSIGHTS (JUL) -->
+<g>
+<rect x="650" y="426" width="120" height="160" fill="url(#beam)"/>
+<rect x="650" y="600" width="120" height="26" fill="#2a2350"/>
+<rect x="650" y="600" width="120" height="6" fill="#37d08b"/>
+<rect x="650" y="626" width="120" height="4" fill="#0f0b2e"/>
+<text x="710" y="562" font-size="16" fill="#37d08b" text-anchor="middle" letter-spacing="1">JUL</text>
+<rect x="686" y="540" width="48" height="36" fill="#241b52"/>
+<rect x="692" y="546" width="36" height="24" fill="#0c0a26"/>
+<g><rect x="696" y="562" width="6" height="8" fill="#4ae3ff"/><rect x="706" y="554" width="6" height="16" fill="#ffe45e"/><rect x="716" y="556" width="6" height="14" fill="#ff5da2"/></g>
+<rect x="702" y="576" width="16" height="4" fill="#b9c8ff"/>
+<rect x="710" y="580" width="6" height="6" fill="#241b52"/>
+<text x="710" y="652" font-size="17" fill="#ffffff" text-anchor="middle" letter-spacing="1">3DXINSIGHTS</text>
+<text x="710" y="672" font-size="13" fill="#b9c8ff" text-anchor="middle" letter-spacing="1">CLICKHOUSE · DASHBOARD</text>
+</g>
+
+<!-- PLATFORM 5: RCA MINING (JUL) -->
+<g>
+<rect x="840" y="426" width="120" height="160" fill="url(#beam)"/>
+<rect x="840" y="600" width="120" height="26" fill="#2a2350"/>
+<rect x="840" y="600" width="120" height="6" fill="#37d08b"/>
+<rect x="840" y="626" width="120" height="4" fill="#0f0b2e"/>
+<text x="900" y="562" font-size="16" fill="#37d08b" text-anchor="middle" letter-spacing="1">JUL</text>
+<g fill="#b9c8ff"><rect x="876" y="548" width="44" height="10"/><rect x="876" y="562" width="44" height="10"/><rect x="876" y="576" width="44" height="10"/><rect x="882" y="558" width="8" height="4"/><rect x="882" y="572" width="8" height="4"/></g>
+<circle cx="920" cy="546" r="10" fill="#37d08b" opacity=".9"/>
+<rect x="926" y="552" width="12" height="5" fill="#37d08b" transform="rotate(42 926 552)"/>
+<text x="900" y="652" font-size="17" fill="#ffffff" text-anchor="middle" letter-spacing="1">RCA MINING</text>
+<text x="900" y="672" font-size="13" fill="#b9c8ff" text-anchor="middle" letter-spacing="1">2000+ RCAs · V1–V10</text>
+</g>
+
+<!-- STAIRS -->
+<g>
+<rect x="976" y="588" width="56" height="38" fill="#2a2350"/><rect x="976" y="588" width="56" height="6" fill="#7c6df0"/>
+<rect x="1032" y="552" width="56" height="38" fill="#2a2350"/><rect x="1032" y="552" width="56" height="6" fill="#7c6df0"/>
+<rect x="1088" y="516" width="56" height="38" fill="#2a2350"/><rect x="1088" y="516" width="56" height="6" fill="#7c6df0"/>
+<rect x="1144" y="480" width="56" height="38" fill="#2a2350"/><rect x="1144" y="480" width="56" height="6" fill="#7c6df0"/>
+<text x="1006" y="664" font-size="13" fill="#7c6df0" letter-spacing="1">▲ LEVEL UP</text>
+</g>
+
+<!-- UPPER PLATFORM (AUG) -->
+<g>
+<rect x="1200" y="428" width="380" height="30" fill="#2a2350"/>
+<rect x="1200" y="428" width="380" height="8" fill="#ff5da2"/>
+<rect x="1200" y="458" width="380" height="4" fill="#0f0b2e"/>
+<rect x="1200" y="462" width="380" height="238" fill="url(#beam)"/>
+<text x="1240" y="452" font-size="13" fill="#ff5da2" letter-spacing="1">AUG</text>
+<text x="1390" y="452" font-size="13" fill="#ff5da2" letter-spacing="1">AUG</text>
+</g>
+
+<!-- P6: FINETUNE -->
+<g>
+<text x="1260" y="404" font-size="17" fill="#ffffff" text-anchor="middle" letter-spacing="1">7B QLORA FINETUNE</text>
+<text x="1260" y="424" font-size="13" fill="#b9c8ff" text-anchor="middle" letter-spacing="1">SAGEMAKER · PEFT+DDP</text>
+</g>
+
+<!-- P7: MINUTASKS MCP -->
+<g>
+<rect x="1348" y="340" width="88" height="64" fill="#241b52"/>
+<rect x="1348" y="340" width="88" height="12" fill="#7c6df0"/>
+<rect x="1356" y="344" width="7" height="7" fill="#ff5da2"/><rect x="1368" y="344" width="7" height="7" fill="#ffe45e"/><rect x="1380" y="344" width="7" height="7" fill="#37d08b"/>
+<text x="1358" y="376" font-size="13" fill="#37d08b" letter-spacing="1">$ mcp start</text>
+<text x="1358" y="394" font-size="13" fill="#4ae3ff" letter-spacing="1">minutasks ✓</text>
+<rect x="1408" y="382" width="8" height="14" fill="#4ae3ff" class="cur"/>
+<text x="1420" y="404" font-size="17" fill="#ffffff" text-anchor="middle" letter-spacing="1">MINUTASKS MCP</text>
+<text x="1420" y="424" font-size="13" fill="#b9c8ff" text-anchor="middle" letter-spacing="1">CURSOR → MINUTASKS</text>
+</g>
+<style>
+.cube{animation:cube 26s linear infinite}
+.cube2{animation:cube 26s linear infinite;animation-delay:-13s}
+.cube3{animation:cube 26s linear infinite;animation-delay:-6.5s}
+.slow{animation:cube 52s linear infinite}
+</style>
+
+<!-- TRAVELING CUBES -->
+<g fill="#4ae3ff">
+<rect class="cube" x="-12" y="-12" width="24" height="24"/>
+<rect class="cube" x="-18" y="-18" width="12" height="12" fill="#eaf6ff" opacity=".9"/>
+</g>
+<g fill="#ff5da2">
+<rect class="cube2" x="-12" y="-12" width="24" height="24"/>
+<rect class="cube2" x="-18" y="-18" width="12" height="12" fill="#ffd1e8" opacity=".9"/>
+</g>
+<g fill="#ffe45e">
+<rect class="cube3" x="-10" y="-10" width="20" height="20"/>
+</g>
+
+<!-- START FLAG -->
+<g>
+<rect x="126" y="480" width="4" height="112" fill="#b9c8ff"/>
+<rect x="126" y="480" width="34" height="22" fill="#37d08b"/>
+<rect x="132" y="486" width="22" height="10" fill="#0c0a26"/>
+</g>
+<text x="176" y="500" font-size="14" fill="#37d08b" letter-spacing="1">START</text>
+<text x="176" y="518" font-size="13" fill="#b9c8ff" letter-spacing="1">MAY 14</text>
+
+<!-- END FLAG + CHARACTER -->
+<rect x="1506" y="330" width="4" height="102" fill="#b9c8ff"/>
+<g class="wave">
+<rect x="1360" y="330" width="140" height="34" fill="#ff5da2"/>
+<rect x="1420" y="344" width="70" height="14" fill="#241b52"/>
+<rect x="1380" y="338" width="30" height="16" fill="#ffe45e"/>
+<rect x="1456" y="338" width="26" height="10" fill="#eaf6ff"/>
+</g>
+<text x="1500" y="318" font-size="14" fill="#ffe45e" letter-spacing="1" text-anchor="middle">NOW ▶</text>
+
+<!-- SURAJ CHARACTER (platform top = 428) -->
+<g transform="translate(0,-23)">
+<rect x="1500" y="339" width="70" height="7" fill="#ff5da2"/>
+<rect x="1500" y="346" width="70" height="7" fill="#2a2346"/>
+<rect x="1500" y="353" width="7" height="21" fill="#2a2346"/>
+<rect x="1563" y="353" width="7" height="21" fill="#2a2346"/>
+<rect x="1507" y="353" width="56" height="21" fill="#ffd5a1"/>
+<g class="blinkE"><rect x="1517" y="360" width="7" height="7" fill="#1a1530"/><rect x="1546" y="360" width="7" height="7" fill="#1a1530"/></g>
+<rect x="1514" y="374" width="42" height="7" fill="#ffd5a1"/>
+<rect x="1514" y="381" width="42" height="7" fill="#27c6e0"/>
+<rect x="1500" y="388" width="70" height="7" fill="#27c6e0"/>
+<rect x="1507" y="395" width="56" height="7" fill="#1599b8"/>
+<rect x="1514" y="402" width="42" height="14" fill="#27c6e0"/>
+<rect x="1514" y="416" width="42" height="7" fill="#27c6e0"/>
+<rect x="1514" y="423" width="21" height="7" fill="#7c6df0"/>
+<rect x="1535" y="423" width="21" height="7" fill="#7c6df0"/>
+<rect x="1514" y="430" width="35" height="7" fill="#7c6df0"/>
+<rect x="1521" y="437" width="14" height="7" fill="#7c6df0"/>
+<rect x="1535" y="437" width="14" height="7" fill="#7c6df0"/>
+<rect x="1514" y="444" width="35" height="7" fill="#ffe45e"/>
+<rect x="1527" y="340" width="18" height="6" fill="#ff5da2"/>
+<rect x="1528" y="346" width="4" height="12" fill="#b9c8ff"/>
+<rect x="1564" y="356" width="4" height="8" fill="#ff5da2"/>
+<rect x="1570" y="360" width="8" height="4" fill="#27c6e0"/>
+</g>
+
+<text x="1540" y="500" font-size="17" fill="#eaf6ff" text-anchor="middle" letter-spacing="2">SURAJ</text>
+<text x="1540" y="520" font-size="13" fill="#ffd166" text-anchor="middle" letter-spacing="1">▼ MINUTUS 2026 ▼</text>
+<text x="1540" y="540" font-size="12" fill="#b9c8ff" text-anchor="middle" letter-spacing="1">3 MONTHS · 8 MILESTONES</text>
+
+<g fill="#eaf6ff" opacity=".8">
+<rect class="pulse" x="1500" y="300" width="5" height="5"/>
+<rect class="pulse" x="1562" y="290" width="5" height="5" style="animation-delay:.3s"/>
+<rect class="pulse" x="1580" y="320" width="5" height="5" style="animation-delay:.6s"/>
+</g>
+
+<text x="60" y="872" font-size="13" fill="#b9c8ff" letter-spacing="1">▶ GOOD JOB, SURAJ! THE NEXT LEVEL IS WAITING...</text>
+<rect x="600" y="862" width="10" height="14" fill="#4ae3ff" class="cur"/>
+<text x="1440" y="872" font-size="13" fill="#7c6df0" letter-spacing="1">ESC = RESPAWN AT MAY 14</text>
+
+<g fill="#35d07f">
+<rect x="520" y="694" width="6" height="10"/><rect x="690" y="690" width="6" height="12"/><rect x="780" y="696" width="6" height="8"/><rect x="1010" y="692" width="6" height="10"/><rect x="1300" y="694" width="6" height="10"/><rect x="330" y="690" width="6" height="12"/>
+</g>
+<g fill="#37d08b"><rect x="520" y="702" width="6" height="6"/><rect x="781" y="702" width="6" height="6"/><rect x="1301" y="702" width="6" height="6"/></g>
+</svg>
