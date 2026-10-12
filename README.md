@@ -4,10 +4,6 @@ Building AI-powered tools — observability platforms, RCA pipelines, and
 natural-language automation. Alongside that, a backend and JavaScript study
 track I keep in public repos.
 
-<p align="center">
-  <img src="journey.svg" alt="Suraj's pixel-art journey — animated" width="100%">
-</p>
-
 ---
 
 ## Work (May 2026 → October 2026)
